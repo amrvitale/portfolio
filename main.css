@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: black;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #fcedfc;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  section:nth-child(even) {
+    background-color: #def2e5;
+    width: 100%;
+  }
+  h1, h2, h3 {
+    font-family: 'Tauri', sans-serif;
+  }
+  
+  h2.portfolio {
+    display: block;
+  }
+
+  .startQuiz {
+    padding: 15px;
+    max-width: 30%
+  }
+
+  .correct {
+    padding: 15px;
+    max-width: 30%
+  }
+
+  .incorrect {
+    padding: 15px;
+    max-width: 30%
+  }
+
+  .myButtons {
+    display: inline;
+    padding: 5em;
+    
+  }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      max-width: 100%;
+    }
+    .break {
+      display: none;
+    }
+    img.myButtons {
+      text-align: center;
+      width: auto;
+      height: auto;
+      margin: 1px;
+      padding: 5px;
+      max-width: 60px;
+    }
+  .myButtons {
+    display: inline;
+
+  }
+  h1, h2, h3 {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  p {
+    text-align: center;
+    font-size: 30px;
+    max-width: 100%;
+  }
+  .break {
+    display: none;
+  }
+  img.myButtons {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    padding: 5px;
+    max-width: 100px;
+  }
+.myButtons {
+  display: inline;
+
+}
+h1, h2, h3 {
+  font-size: 2em;
+}
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1366px) {
+  p {
+    text-align: center;
+    font-size: 30px;
+    max-width: 100%;
+  }
+
+  img.myButtons {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    padding: 30px;
+    max-width: 180px;
+  }
+.myButtons {
+  display: inline;
+
+}
+.break {
+  display: none;
+}
+h1, h2, h3 {
+  font-size: 3em;
+}
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
+  p {
+    text-align: center;
+    font-size: 35px;
+    max-width: 100%;
+  }
+
+  img.myButtons {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    padding: 30px;
+    max-width: 180px;
+  }
+
+  .myButtons {
+    display: inline;
+  }
+
+  .break {
+    display: none;
+  }
+
+  h1, h2, h3 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-device-width: 1601px) and (max-device-width: 2000px) {
+  p {
+    text-align: center;
+    font-size: 35px;
+    max-width: 100%;
+  }
+
+  img.myButtons {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    padding: 30px;
+    max-width: 180px;
+  }
+
+  .myButtons {
+    display: inline;
+  }
+
+  
+
+  h1, h2, h3 {
+    font-size: 3em;
+  }
+}
