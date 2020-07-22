@@ -5,6 +5,7 @@
   }
   
   body {
+    display: flex;
     font-family: "Open Sans",
     sans-serif; 
     text-align: center;
@@ -35,6 +36,7 @@
   }
   
   section {
+    align-content: center;
     min-height: 200px;
     padding: 6% 0;
     background-color: #fcedfc;
@@ -43,6 +45,7 @@
   }
   
   section:nth-child(even) {
+    align-content: center;
     background-color: #def2e5;
     width: 100%;
   }
