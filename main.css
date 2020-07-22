@@ -58,11 +58,14 @@
   }
 
  img {
-    padding: 15px;
-    width: 40%;
+    padding: 6px;
+    width: 100%;
   }
 
-
+.images div {
+  display: flex;
+  flex-direction: column;
+}
   .myButtons {
     display: inline;
     padding: 5em;
